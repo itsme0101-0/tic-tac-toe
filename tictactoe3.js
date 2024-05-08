@@ -59,10 +59,7 @@ const buttonDisable = () => {
     }
 };
 
-/*const showWinner = () => {
-    buttonDisable();
-} not working. why?
-*/
+
 const checkWinner = () => {
     for (patterns of winningPaterns) {
         let pos1 = btn[patterns[0]].innerText;
